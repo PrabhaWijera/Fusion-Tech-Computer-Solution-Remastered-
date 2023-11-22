@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #ced6e0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Fusion.controller.DashBordes.StockKeeperDashHomeController">
+   <children>
+      <AnchorPane layoutX="-9.0" layoutY="-9.0" prefHeight="87.0" prefWidth="1931.0" style="-fx-background-color: #a29bfe;">
+         <children>
+            <Label layoutX="107.0" layoutY="24.0" text="Fusion Tech Computer Solutions">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="1786.0" layoutY="23.0" mnemonicParsing="false" onAction="#logOutOnAction" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: #f5f6fa;" textFill="#2f60ff">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Label layoutX="1372.0" layoutY="14.0" text="Date :">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="datelbl" layoutX="1422.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" text="..........">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1535.0" layoutY="14.0" text="Item :">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="Itemlbl" layoutX="1579.0" layoutY="14.0" text="..............">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="17.0" />
+               </font></Label>
+            <ImageView fitHeight="69.0" fitWidth="81.0" layoutX="26.0" layoutY="14.0" onMouseClicked="#ReturnDashOnClick">
+               <image>
+                  <Image url="@../Asstes/llg.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+         </children>
+         <effect>
+            <Lighting diffuseConstant="1.37" light="$null" specularConstant="0.15" specularExponent="17.08" surfaceScale="0.0">
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <ColorAdjust />
+                     </input>
+                  </Shadow>
+               </bumpInput>
+            </Lighting>
+         </effect></AnchorPane>
+      <AnchorPane fx:id="pane" layoutX="335.0" layoutY="78.0" prefHeight="1004.0" prefWidth="1584.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="1004.0" fitWidth="1592.0" layoutX="-7.0">
+               <image>
+                  <Image url="@../Asstes/yy.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="1060.0" layoutY="-86.0" prefHeight="0.0" prefWidth="15.0" style="-fx-background-color: #BCC8C6;">
+               <effect>
+                  <Lighting diffuseConstant="1.61" light="$null" specularConstant="0.0" specularExponent="40.0" surfaceScale="8.05">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                  </Lighting>
+               </effect>
+            </AnchorPane>
+            <AnchorPane layoutX="142.0" layoutY="85.0" prefHeight="80.0" prefWidth="373.0" style="-fx-background-color: #ced6e0; -fx-background-radius: 25;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ProgressBar layoutX="134.0" layoutY="40.0" prefHeight="23.0" prefWidth="225.0" progress="0.75" />
+                  <Label layoutX="8.0" layoutY="30.0" text="TOP ITEMS" />
+                  <Label layoutX="134.0" layoutY="20.0" text="85%">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="660.0" layoutY="85.0" prefHeight="80.0" prefWidth="373.0" style="-fx-background-color: #ced6e0; -fx-background-radius: 25;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ProgressBar layoutX="134.0" layoutY="40.0" prefHeight="23.0" prefWidth="225.0" />
+                  <Label layoutX="8.0" layoutY="30.0" text="TOP CUSTOMERS" />
+                  <Label layoutX="134.0" layoutY="20.0" text="25%">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1157.0" layoutY="85.0" prefHeight="80.0" prefWidth="373.0" style="-fx-background-color: #ced6e0; -fx-background-radius: 25;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ProgressBar layoutX="134.0" layoutY="40.0" prefHeight="23.0" prefWidth="225.0" progress="0.17" />
+                  <Label layoutX="8.0" layoutY="30.0" text="TOP ORDERS" />
+                  <Label layoutX="134.0" layoutY="20.0" text="25%">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <MediaView fitHeight="200.0" fitWidth="200.0" layoutX="746.0" layoutY="402.0" />
+            <AnchorPane layoutX="78.0" layoutY="231.0" prefHeight="615.0" prefWidth="1452.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="-6.0" layoutY="77.0" opacity="0.9" prefHeight="118.0" prefWidth="335.0" style="-fx-background-color: #ced6e0;">
+         <children>
+            <Label layoutX="65.0" layoutY="94.0" prefHeight="21.0" prefWidth="103.0" text="USER NAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="userNameLbl" layoutX="183.0" layoutY="91.0" text="stockdto" textFill="#220eff">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <ImageView fitHeight="80.0" fitWidth="81.0" layoutX="127.0" layoutY="14.0">
+               <image>
+                  <Image url="@../Asstes/officer.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <VBox layoutY="396.0" prefHeight="176.0" prefWidth="343.0">
+         <children>
+            <Button fx:id="itemBtn" mnemonicParsing="false" onAction="#Go_itemOnAction" onMouseEntered="#ItemEnter" onMouseExited="#itemExit" prefHeight="69.0" prefWidth="335.0" style="-fx-background-color: #ced6e0;" text="Items" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="51.0">
+                     <image>
+                        <Image url="@../Asstes/inventory.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="stockBtn" mnemonicParsing="false" onAction="#Go_StockOnAction" onMouseEntered="#stockEnter" onMouseExited="#stockExit" prefHeight="68.0" prefWidth="335.0" style="-fx-background-color: #ced6e0;" text="Stock" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="54.0" fitWidth="73.0">
+                     <image>
+                        <Image url="@../Asstes/warehouse.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <MediaView fx:id="stMediaView" fitHeight="300.0" fitWidth="300.0" layoutX="14.0" layoutY="722.0" />
+   </children>
+</AnchorPane>

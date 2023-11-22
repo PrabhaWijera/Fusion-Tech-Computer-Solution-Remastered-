@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FusionTechComputerSolutions:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f46e9f8a-59f1-4f55-bced-9f1df7d88403" name="Changes" comment="updateallfusiontech">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2L6VbEpa7sg0u9AsoMShozWH8cc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RIICOO_Group_74" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FusionTechComputerSolutions\FusionTechComputerSolutions-20230123T181011Z-001\FusionTechComputerSolutions\src\Resouces\View\Reports" />
+      <recent name="E:\FusionTechComputerSolutions\FusionTechComputerSolutions-20230123T181011Z-001\FusionTechComputerSolutions\src\Resouces\View" />
+      <recent name="E:\FusionTechComputerSolutions\FusionTechComputerSolutions-20230123T181011Z-001\FusionTechComputerSolutions\src\lk\ijse\Fusion\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FusionTechComputerSolutions\FusionTechComputerSolutions-20230123T181011Z-001\FusionTechComputerSolutions\src\Resouces\Asstes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.Fusion.model.util" />
+      <recent name="lk.ijse.Fusion.model.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Appinitializer">
+    <configuration name="Appinitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.Fusion.Appinitializer" />
+      <module name="FusionTechComputerSolutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.Fusion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tryht" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tryht" />
+      <module name="FusionTechComputerSolutions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Appinitializer" />
+        <item itemvalue="Application.tryht" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f46e9f8a-59f1-4f55-bced-9f1df7d88403" name="Changes" comment="" />
+      <created>1675191589393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675191589393</updated>
+      <workItem from="1675191591450" duration="60000" />
+      <workItem from="1675191714969" duration="18000" />
+      <workItem from="1675191760908" duration="1685000" />
+      <workItem from="1675193576223" duration="527000" />
+      <workItem from="1675261772875" duration="5000" />
+      <workItem from="1675325549163" duration="9356000" />
+      <workItem from="1675346939201" duration="68000" />
+      <workItem from="1675395568086" duration="1221000" />
+      <workItem from="1675493944778" duration="4781000" />
+      <workItem from="1675521087122" duration="941000" />
+      <workItem from="1675522043705" duration="3709000" />
+      <workItem from="1675568392129" duration="11732000" />
+      <workItem from="1675657761993" duration="7631000" />
+      <workItem from="1675682319468" duration="1268000" />
+      <workItem from="1675692486600" duration="7166000" />
+      <workItem from="1675744139304" duration="9344000" />
+      <workItem from="1675755705458" duration="11857000" />
+      <workItem from="1675774842697" duration="9472000" />
+      <workItem from="1675786329252" duration="10776000" />
+      <workItem from="1675811698780" duration="789000" />
+      <workItem from="1675828859136" duration="24697000" />
+      <workItem from="1675857471885" duration="4889000" />
+      <workItem from="1675894148118" duration="15253000" />
+      <workItem from="1675910715164" duration="255000" />
+      <workItem from="1675917527504" duration="9974000" />
+      <workItem from="1675933010702" duration="9509000" />
+      <workItem from="1675942897087" duration="282000" />
+      <workItem from="1675996740559" duration="4415000" />
+      <workItem from="1676002314126" duration="7145000" />
+      <workItem from="1676084441167" duration="1210000" />
+      <workItem from="1676170956260" duration="5572000" />
+      <workItem from="1676349645975" duration="28000" />
+      <workItem from="1676349722245" duration="2000" />
+      <workItem from="1676349977650" duration="33000" />
+      <workItem from="1677246637109" duration="96000" />
+      <workItem from="1677408996478" duration="8332000" />
+      <workItem from="1677420764720" duration="6027000" />
+      <workItem from="1677467977056" duration="6561000" />
+      <workItem from="1677478543236" duration="1104000" />
+      <workItem from="1677487732037" duration="1933000" />
+      <workItem from="1677493277113" duration="15000" />
+      <workItem from="1677493463202" duration="3121000" />
+      <workItem from="1677498426504" duration="147000" />
+      <workItem from="1677498628724" duration="593000" />
+      <workItem from="1677502409534" duration="2262000" />
+      <workItem from="1677509467273" duration="7963000" />
+      <workItem from="1677518555595" duration="46000" />
+      <workItem from="1678080443814" duration="415000" />
+      <workItem from="1678102032025" duration="3129000" />
+      <workItem from="1678692750472" duration="1175000" />
+      <workItem from="1678694450249" duration="886000" />
+      <workItem from="1678696478694" duration="165000" />
+      <workItem from="1680014992426" duration="54000" />
+      <workItem from="1680090420397" duration="6223000" />
+      <workItem from="1680141673008" duration="3000" />
+      <workItem from="1680143332815" duration="1550000" />
+      <workItem from="1680149588385" duration="28000" />
+      <workItem from="1680150338653" duration="6839000" />
+      <workItem from="1680164644273" duration="1725000" />
+      <workItem from="1680172280192" duration="475000" />
+      <workItem from="1680176564652" duration="95000" />
+      <workItem from="1680177953479" duration="155000" />
+      <workItem from="1680178463917" duration="830000" />
+      <workItem from="1680241557843" duration="100000" />
+      <workItem from="1680244990023" duration="1020000" />
+      <workItem from="1680522691572" duration="57000" />
+      <workItem from="1680522860528" duration="156000" />
+      <workItem from="1680526867728" duration="280000" />
+      <workItem from="1680527188081" duration="225000" />
+      <workItem from="1680595356702" duration="43000" />
+      <workItem from="1680603732839" duration="2578000" />
+      <workItem from="1680842651446" duration="820000" />
+      <workItem from="1681876170303" duration="773000" />
+      <workItem from="1681960846468" duration="621000" />
+      <workItem from="1683888929014" duration="52000" />
+      <workItem from="1683889047297" duration="39000" />
+      <workItem from="1684293109633" duration="282000" />
+      <workItem from="1684300120971" duration="663000" />
+      <workItem from="1684301313474" duration="21000" />
+      <workItem from="1684684875280" duration="680000" />
+      <workItem from="1684986814291" duration="145000" />
+      <workItem from="1686842568601" duration="417000" />
+      <workItem from="1686925998860" duration="30000" />
+      <workItem from="1688548960655" duration="31000" />
+      <workItem from="1688955383701" duration="3262000" />
+      <workItem from="1688963202425" duration="10000" />
+      <workItem from="1690394798318" duration="30000" />
+      <workItem from="1691682408350" duration="1941000" />
+      <workItem from="1691684586653" duration="39000" />
+      <workItem from="1691765915049" duration="460000" />
+      <workItem from="1691772676058" duration="17000" />
+      <workItem from="1692527623631" duration="634000" />
+      <workItem from="1692534146492" duration="2016000" />
+      <workItem from="1692545775788" duration="4504000" />
+      <workItem from="1692631880133" duration="6508000" />
+      <workItem from="1692714521841" duration="2379000" />
+      <workItem from="1692800279584" duration="477000" />
+      <workItem from="1692801312714" duration="112000" />
+      <workItem from="1693938294457" duration="110000" />
+      <workItem from="1693938641331" duration="14000" />
+      <workItem from="1694008288820" duration="3337000" />
+      <workItem from="1694013578385" duration="916000" />
+      <workItem from="1694629634226" duration="276000" />
+      <workItem from="1694699523122" duration="95000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1675586504550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675586504550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updateallfusiontech">
+      <created>1694014092185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694014092185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <MESSAGE value="updateallfusiontech" />
+    <option name="LAST_COMMIT_MESSAGE" value="updateallfusiontech" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.InstantiationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="net.sf.jasperreports.engine.JRException" package="net.sf.jasperreports.engine" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lk/ijse/Fusion/controller/Attends/AttendsController.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+        <breakpoint enabled="true" type="django-exception">
+          <properties exception="VariableDoesNotExist" />
+        </breakpoint>
+        <breakpoint enabled="true" type="jinja2-exception">
+          <properties exception="TemplateError" />
+        </breakpoint>
+        <breakpoint enabled="true" type="jupyter-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

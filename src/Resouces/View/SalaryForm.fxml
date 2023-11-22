@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="1004.0" prefWidth="1584.0" style="-fx-background-color: #d3d3d3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Fusion.controller.Employee.SalaryFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2e6ee" height="70.0" stroke="BLACK" strokeType="INSIDE" width="1584.0">
+         <effect>
+            <Lighting diffuseConstant="2.0" light="$null" specularConstant="0.0" specularExponent="32.68" surfaceScale="7.23">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="310.0" layoutY="66.0" onDragDetected="#Back_OnAction" stroke="BLACK" strokeType="INSIDE" width="1584.0" />
+      <TextField fx:id="amountTxt" layoutX="1107.0" layoutY="138.0" prefHeight="35.0" prefWidth="431.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="employeeIdTxt" layoutX="601.0" layoutY="138.0" prefHeight="35.0" prefWidth="431.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="SalaryIdtxt" layoutX="107.0" layoutY="138.0" prefHeight="35.0" prefWidth="431.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="601.0" layoutY="113.0" text="Employee-ID">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1107.0" layoutY="113.0" text="Amount">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="113.0" text="Salary-ID">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="18.0" text="Salary Management">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="1403.0" layoutY="390.0" mnemonicParsing="false" onAction="#deleteOnAction" prefHeight="43.0" prefWidth="135.0" style="-fx-background-color: #ff4d4d;" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="1257.0" layoutY="390.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="43.0" prefWidth="135.0" style="-fx-background-color: #18dcff;" text="Update">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="1109.0" layoutY="390.0" mnemonicParsing="false" onAction="#addOnAction" prefHeight="43.0" prefWidth="135.0" style="-fx-background-color: #32ff7e;" text="Add">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <TableView layoutX="26.0" layoutY="454.0" prefHeight="532.0" prefWidth="1509.0" style="-fx-background-color: #616161;">
+        <columns>
+          <TableColumn prefWidth="154.0" text="Employee-ID" />
+          <TableColumn prefWidth="162.0" text="Name" />
+            <TableColumn prefWidth="187.0" text="Amount" />
+        </columns>
+      </TableView>
+      <Label layoutX="107.0" layoutY="223.0" text="Salary Method">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="601.0" layoutY="226.0" text="Details">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="salaryMethodTxt" layoutX="107.0" layoutY="250.0" prefHeight="35.0" prefWidth="431.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="txtDetail" layoutX="601.0" layoutY="250.0" prefHeight="35.0" prefWidth="431.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Button layoutX="1438.0" layoutY="19.0" mnemonicParsing="false" onAction="#Back_OnAction" prefHeight="35.0" prefWidth="74.0" text=" ">
+         <effect>
+            <DropShadow />
+         </effect>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="37.0">
+               <image>
+                  <Image url="@../Assets/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
